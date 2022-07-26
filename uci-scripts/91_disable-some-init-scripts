@@ -1,5 +1,5 @@
 [ -e /etc/init.d/ddns ] && /etc/init.d/ddns disable
-[ -e /etc/init.d/openclash ] && /etc/init.d/openclash disable
+[ -e /etc/init.d/openclash ] && /etc/init.d/openclash enable
 [ -e /etc/init.d/smartdns ] && /etc/init.d/smartdns disable
 [ -e /etc/init.d/passwall2 ] && /etc/init.d/passwall2 disable
 [ -e /etc/init.d/passwall2_server ] && /etc/init.d/passwall2_server disable
